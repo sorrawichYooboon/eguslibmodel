@@ -1,3 +1,4 @@
-# github.com/sorrawichYooboon/sgslibmodel v1.0.1
+# github.com/sorrawichYooboon/sgslibmodel v1.0.2
 ## explicit; go 1.20
-github.com/sorrawichYooboon/sgslibmodel
+github.com/sorrawichYooboon/sgslibmodel/calculator
+github.com/sorrawichYooboon/sgslibmodel/numutil
