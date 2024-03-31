@@ -2,4 +2,4 @@ module github.com/sorrawichYooboon/eguslibmodel
 
 go 1.20
 
-require github.com/sorrawichYooboon/sgslibmodel v1.0.2 // indirect
+require github.com/sorrawichYooboon/sgslibmodel v1.0.4

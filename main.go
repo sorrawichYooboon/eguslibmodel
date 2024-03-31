@@ -5,12 +5,16 @@ import (
 
 	calculator "github.com/sorrawichYooboon/sgslibmodel/calculator"
 	numutil "github.com/sorrawichYooboon/sgslibmodel/numutil"
+	personinfo "github.com/sorrawichYooboon/sgslibmodel/personinfo"
 )
 
 func main() {
-	a := calculator.CalSquareArea(5)
-	fmt.Println(">>> Square Area: ", a)
+	squareArea := calculator.CalSquareArea(5)
+	fmt.Println(">>> Square Area: ", squareArea)
 
-	b := numutil.FindMax([]int{1, 2, 3, 4, 5})
-	fmt.Println(">>> Max: ", b)
+	numMax := numutil.FindMax([]int{1, 2, 3, 4, 5})
+	fmt.Println(">>> Max: ", numMax)
+
+	firstStudent := personinfo.NewStudent("Sorrawich Yooboon", 25, 86)
+	fmt.Println(">>> Student: ", firstStudent.GetStudentInfo())
 }
